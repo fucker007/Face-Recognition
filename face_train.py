@@ -1,7 +1,9 @@
 #-*- coding: utf-8 -*-
 import random
 import numpy as np
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import KFold
+from sklearn.model_selection import train_test_split
+#from sklearn.cross_validation import train_test_split
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten
